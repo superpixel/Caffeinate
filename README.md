@@ -1,4 +1,4 @@
 Caffeinate
 ==========
 
-AppleScript Interface for /usr/bin/caffeinate
+AppleScript Interface for ```caffeinate```
