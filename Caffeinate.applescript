@@ -1,7 +1,7 @@
 on run
-	set choosen_time to choose from list Â
-		{"30 minutes", "1 hour", "2 hours"} with title "Caffeninate" with prompt Â
-		"Keep this mac awake for:" default items Â
+	set choosen_time to choose from list Â¬
+		{"30 minutes", "1 hour", "2 hours"} with title "Caffeninate" with prompt Â¬
+		"Keep this mac awake for:" default items Â¬
 		{"1 hour"} without multiple selections allowed
 	if choosen_time contains "30 minutes" then
 		do shell script "/usr/bin/caffeinate -s -t 1800 &> /dev/null &"
